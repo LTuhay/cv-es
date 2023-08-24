@@ -2,12 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&family=Lora:ital@1&family=Oswald:wght@200;700&display=swap');
 
-@font-face {
-  font-family: "Lato2";
-  src: url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,400&family=Lora:ital@1&display=swap');
-}
-
-
 
 body {
   background-color: #F2F2F2;
@@ -203,12 +197,12 @@ h1 {
   color: #5D8C8C;
 }
 
-a {
+.link-datos {
   text-decoration: none; 
   color: white;
 }
 
-a:hover {
+.link-datos:hover {
   text-decoration: underline; 
 }
 
@@ -220,6 +214,17 @@ a:hover {
   border-radius: 5px;
 }
 
+.link {
+  color: #5D8C8C;
+  font-style: italic;
+  font-family: Lora;
+  padding-left: 10px;
+  text-decoration: underline;
+}
+
+.link:hover {
+  text-decoration: none;
+}
 
 @media (max-width: 768px) {
   .container {
