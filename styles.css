@@ -220,6 +220,7 @@ h1 {
   font-family: Lora;
   padding-left: 10px;
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .link:hover {
