@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&family=Lora:ital@1&family=Oswald:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&family=Lato:ital@1&family=Oswald:wght@200;700&display=swap');
 
 
 body {
   background-color: #F2F2F2;
   margin: 0;
   padding: 0;
+  font-family: Lato;
 }
 
 .container {
@@ -66,7 +67,6 @@ header {
 h1 {
   color: black;
   text-align: center;
-  font-family: Lato;
   font-size: 3em;
   margin: 10px;
 }
@@ -74,8 +74,8 @@ h1 {
 .developer {
   color: black;
   text-align: center;
-  font-family: Lora;
   font-size: 1.5em;
+  font-style: italic;
   padding: 0;
   margin: 10px;
 }
@@ -120,27 +120,20 @@ h1 {
   background-color: #dbdbdb;
   margin-top: 0;
   padding: 5px;
-  font-family: Lato;
   font-size: 1.2em;
   text-align: center;
 }
 
 .subt {
-  font-family: Lora;
   font-weight: bold;
 }
 
 .text {
-  font-family: Lato;
   font-weight: lighter;
 }
 
-.personal-info h2 {
-  font-family: Lato;
-}
 
 .personal-info p {
-  font-family: Lato;
   font-style: italic;
   font-weight: lighter;
 }
@@ -156,7 +149,6 @@ h1 {
 }
 
 .skill {
-  font-family: Lato;
   display: inline-block;
   background-color: #260F01;
   color: #F2F2F2;
@@ -183,7 +175,6 @@ h1 {
 }
 
 .project-list li {
-  font-family: Lato;
   font-weight: lighter;
   margin-bottom: 10px; 
   margin-left: 10px;
@@ -217,8 +208,7 @@ h1 {
 .link {
   color: #5D8C8C;
   font-style: italic;
-  font-family: Lora;
-  padding-left: 10px;
+  padding-left: 5px;
   text-decoration: underline;
   font-weight: bold;
 }
