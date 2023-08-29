@@ -217,6 +217,24 @@ h1 {
   text-decoration: none;
 }
 
+.languaje {
+  position: absolute; 
+  top: 10px; 
+  left: 10px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: bolder;
+}
+
+.languajel {
+  color: black;
+  text-decoration: none;
+}
+
+.languajel:hover {
+  text-decoration: underline
+}
+
 @media (max-width: 768px) {
   .container {
     display: grid;
